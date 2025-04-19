@@ -6,7 +6,7 @@ using UnityEngine;
 public class Conductor : MonoBehaviour
 {
     //bpm of the song
-    public int bpm = 122;
+    public static int bpm = 122;
     //beats per second, to know how long each beat (basic note) last
     public float secPerBeat;
     //current SONG POSITION (probably the most important thing in the world) in seconds
@@ -42,10 +42,13 @@ public class Conductor : MonoBehaviour
         //how many beats since the song started
         songPosBeat = songPosSec / secPerBeat;
         //note that the beats normally go 1-2-3-4; but here it is 0-1-2-3 -- the third beat will be equal to 2.0, not 3.0
-        if (songPosBeat == 2f) 
-        { 
-           Vector3 notePos = new Vector3(1f, 1f, 1f);
-           notePrefab = Instantiate(notePrefab, notePos, Quaternion.identity);
-        }
+
+        //testing out note spawning to the beat 
+        //if (songPosBeat == 2f) 
+        //{ 
+        //   Vector3 notePos = new Vector3(1f, 1f, 1f);
+        //   notePrefab = Instantiate(notePrefab, notePos, Quaternion.identity);
+        //    Debug.Log("note appeared");
+        //}
     }
 }
