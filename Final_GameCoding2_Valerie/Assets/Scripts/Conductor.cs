@@ -8,8 +8,8 @@ public class Conductor : MonoBehaviour
     //bpm of the song
     public static int bpm = 122;
     //beats per second, to know how long each beat (basic note) last
-    public float secPerBeat;
-    //current SONG POSITION (probably the most important thing in the world) in seconds
+    public static float secPerBeat;
+    //current SONG POSITION in seconds
     public float songPosSec;
     //song position in beats
     public float songPosBeat;
@@ -17,8 +17,7 @@ public class Conductor : MonoBehaviour
     public float dspSongTime;
     //the audio source -- what actually emits the song
     public AudioSource musicSource;
-    //note prefab
-    public GameObject notePrefab;
+    
 
     // Start is called before the first frame update
     void Start()
