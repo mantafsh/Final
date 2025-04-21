@@ -6,6 +6,7 @@ TagManager:
   tags:
   - TriggerLine
   - Note
+  - Out
   layers:
   - Default
   - TransparentFX

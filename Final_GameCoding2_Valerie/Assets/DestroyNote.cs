@@ -2,48 +2,56 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NoteClick : MonoBehaviour
+public class DestroyNote : MonoBehaviour
 {
-    GameObject triggerLine;
+    GameObject note;
     public bool noteInBounds;
     public bool noteClicked;
     // Start is called before the first frame update
     void Start()
     {
-        triggerLine = GetComponent<GameObject>();
+        note = GetComponent<GameObject>();
     }
 
-    private void Update()
+    // Update is called once per frame
+    void Update()
     {
         //check if the notes is tapped
-        if (noteInBounds && Input.GetKeyDown(KeyCode.Space)) 
+        if (noteInBounds && Input.GetKeyDown(KeyCode.Space))
         {
             noteClicked = true;
-
+            
             Debug.Log("Clicked");
         }
-        if(noteClicked && Input.GetKeyUp(KeyCode.Space)) 
-        { 
-            noteClicked = false;    
+        if (noteClicked && Input.GetKeyUp(KeyCode.Space))
+        {
+            //if note was tapped, destroy it
+            noteClicked = false;
+            Destroy(gameObject);
             Debug.Log("Released");
         }
     }
     private void OnTriggerEnter(Collider other)
     {
         //check if teh note is within the bounds of the trigger
-        if (other.CompareTag("Note"))
+        if (other.CompareTag("TriggerLine"))
         {
             noteInBounds = true;
             //Debug.Log("Note In");
         }
-    }
-    private void OnTriggerExit(Collider other) 
-    { 
-        //check if the note has left the bounds
-        if (other.CompareTag("Note")) 
-        {
-            noteInBounds = false;          
+        if (other.CompareTag("Out")) 
+        { 
+            Destroy(gameObject);
         }
-        
+    }
+    private void OnTriggerExit(Collider other)
+    {
+        //check if the note has left the bounds
+        if (other.CompareTag("TriggerLine"))
+        {
+            noteInBounds = false;
+        }
+
     }
 }
+
