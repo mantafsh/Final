@@ -16,16 +16,7 @@ public class NoteScroller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!hasStarted)
-        {
-            if (Input.GetMouseButtonDown(0))
-            {
-                hasStarted = true;
-            }
-        }
-        else 
-        {
-            transform.position -= new Vector3(noteSpeed * Time.deltaTime, 0, 0); 
-        }
+        transform.position -= new Vector3(noteSpeed * Time.deltaTime, 0, 0);
+        hasStarted = true;
     }
 }
