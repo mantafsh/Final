@@ -13,15 +13,36 @@ public class NoteClick : MonoBehaviour
         triggerLine = GetComponent<GameObject>();
     }
 
+    private void Update()
+    {
+        //check if the notes is tapped
+        if (noteInbounds && Input.GetKeyDown(KeyCode.Space)) 
+        {
+            noteClicked = true;
+            Debug.Log("Clicked");
+        }
+        if(noteClicked && Input.GetKeyUp(KeyCode.Space)) 
+        { 
+            noteClicked = false;    
+            Debug.Log("Released");
+        }
+    }
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Note"))
-        { 
+        //check if teh note is within the bounds of the trigger
+        if (other.CompareTag("Note"))
+        {
             noteInbounds = true;
+            //Debug.Log("Note In");
         }
-        if (noteInbounds = true && Input.GetMouseButtonDown(0)) 
-        { 
-            noteClicked = true;
+    }
+    private void OnTriggerExit(Collider other) 
+    { 
+        //check if the note has left the bounds
+        if (other.CompareTag("Note")) 
+        {
+            noteInbounds = false;          
         }
+        
     }
 }
