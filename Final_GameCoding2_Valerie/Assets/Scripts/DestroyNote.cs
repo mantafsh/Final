@@ -39,6 +39,9 @@ public class DestroyNote : MonoBehaviour
             noteInBounds = true;
             //Debug.Log("Note In");
         }
+
+        //if the note is too far, destroy it
+
         if (other.CompareTag("Out")) 
         { 
             Destroy(gameObject);

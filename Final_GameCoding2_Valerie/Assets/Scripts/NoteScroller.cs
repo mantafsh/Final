@@ -10,7 +10,7 @@ public class NoteScroller : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        noteSpeed = Conductor.bpm / 2f;
+        noteSpeed = Conductor.bpm * Conductor.secPerBeat;
     }
 
     // Update is called once per frame
@@ -19,4 +19,5 @@ public class NoteScroller : MonoBehaviour
         transform.position -= new Vector3(noteSpeed * Time.deltaTime, 0, 0);
         hasStarted = true;
     }
+    
 }

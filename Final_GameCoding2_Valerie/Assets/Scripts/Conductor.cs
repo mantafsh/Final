@@ -6,7 +6,7 @@ using UnityEngine;
 public class Conductor : MonoBehaviour
 {
     //bpm of the song
-    public static int bpm = 122;
+    public static int bpm = 114;
     //beats per second, to know how long each beat (basic note) last
     public static float secPerBeat;
     //current SONG POSITION in seconds
