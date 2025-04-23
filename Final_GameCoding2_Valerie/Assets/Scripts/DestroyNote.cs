@@ -28,6 +28,7 @@ public class DestroyNote : MonoBehaviour
             //if note was tapped, destroy it
             noteClicked = false;
             Destroy(gameObject);
+            //register to combo
             Debug.Log("Released");
         }
     }
@@ -45,6 +46,7 @@ public class DestroyNote : MonoBehaviour
         if (other.CompareTag("Out")) 
         { 
             Destroy(gameObject);
+            //reset combo
         }
     }
     private void OnTriggerExit(Collider other)
