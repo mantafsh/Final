@@ -1,0 +1,860 @@
+fileFormatVersion: 2
+guid: 7c3b86c624100fb4ab114d6e00839af7
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 1
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Valerie_Character1_Low:Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Valerie_Character1_Low:LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Valerie_Character1_Low:RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Valerie_Character1_Low:LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Valerie_Character1_Low:RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Valerie_Character1_Low:LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Valerie_Character1_Low:RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Valerie_Character1_Low:Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Valerie_Character1_Low:Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Valerie_Character1_Low:Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Valerie_Character1_Low:Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Valerie_Character1_Low:LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Valerie_Character1_Low:RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Valerie_Character1_Low:LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Valerie_Character1_Low:RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Valerie_Character1_Low:LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Valerie_Character1_Low:RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Valerie_Character1_Low:LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Valerie_Character1_Low:RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Valerie_Character1_Low:LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Valerie_Character1_Low:RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Valerie_Character1_Low:LeftHandThumb1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Valerie_Character1_Low:LeftHandThumb2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Valerie_Character1_Low:LeftHandThumb3
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Valerie_Character1_Low:LeftHandIndex1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Valerie_Character1_Low:LeftHandIndex2
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Valerie_Character1_Low:LeftHandIndex3
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Valerie_Character1_Low:LeftHandMiddle1
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Valerie_Character1_Low:LeftHandMiddle2
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Valerie_Character1_Low:LeftHandMiddle3
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Valerie_Character1_Low:LeftHandRing1
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Valerie_Character1_Low:LeftHandRing2
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Valerie_Character1_Low:LeftHandRing3
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Valerie_Character1_Low:LeftHandPinky1
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Valerie_Character1_Low:LeftHandPinky2
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Valerie_Character1_Low:LeftHandPinky3
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Valerie_Character1_Low:RightHandThumb1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Valerie_Character1_Low:RightHandThumb2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Valerie_Character1_Low:RightHandThumb3
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Valerie_Character1_Low:RightHandIndex1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Valerie_Character1_Low:RightHandIndex2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Valerie_Character1_Low:RightHandIndex3
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Valerie_Character1_Low:RightHandMiddle1
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Valerie_Character1_Low:RightHandMiddle2
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Valerie_Character1_Low:RightHandMiddle3
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Valerie_Character1_Low:RightHandRing1
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Valerie_Character1_Low:RightHandRing2
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Valerie_Character1_Low:RightHandRing3
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Valerie_Character1_Low:RightHandPinky1
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Valerie_Character1_Low:RightHandPinky2
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Valerie_Character1_Low:RightHandPinky3
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Valerie_Character1_Low:Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: fishergirl_walk(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Valerie_Character1_Low:Group4
+      parentName: fishergirl_walk(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Valerie_Character1_Low:Hips
+      parentName: fishergirl_walk(Clone)
+      position: {x: -0.00021408913, y: 0.042559184, z: -0.00017155557}
+      rotation: {x: 2.5675686e-17, y: -0.000000002910383, z: -0.000000004820322, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: Valerie_Character1_Low:Spine
+      parentName: Valerie_Character1_Low:Hips
+      position: {x: -0, y: 0.0033162497, z: 0.00011270117}
+      rotation: {x: 0.016984953, y: 8.496226e-11, z: 0.000000005001499, w: 0.99985576}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: Valerie_Character1_Low:Spine1
+      parentName: Valerie_Character1_Low:Spine
+      position: {x: -0, y: 0.0038711855, z: 1.0884413e-11}
+      rotation: {x: -0.0000000018626451, y: 0.0000000050933213, z: -8.2092534e-11, w: 1}
+      scale: {x: 0.9999999, y: 1.0000001, z: 1}
+    - name: Valerie_Character1_Low:Spine2
+      parentName: Valerie_Character1_Low:Spine1
+      position: {x: -0, y: 0.0044242158, z: -7.305836e-12}
+      rotation: {x: -0.0000000018626451, y: -0.0000000051242113, z: -8.268775e-10, w: 1}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: Valerie_Character1_Low:Neck
+      parentName: Valerie_Character1_Low:Spine2
+      position: {x: -0, y: 0.0049772463, z: -2.320736e-10}
+      rotation: {x: -0.016984943, y: 0.000000008742248, z: 5.7919264e-10, w: 0.99985576}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: Valerie_Character1_Low:Head
+      parentName: Valerie_Character1_Low:Neck
+      position: {x: -0, y: 0.0027831935, z: 0.0002239171}
+      rotation: {x: -0, y: -0.000000008731149, z: 1.0164397e-16, w: 1}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1.0000001}
+    - name: Valerie_Character1_Low:HeadTop_End
+      parentName: Valerie_Character1_Low:Head
+      position: {x: -0, y: 0.010695791, z: 0.0008605118}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Valerie_Character1_Low:RightShoulder
+      parentName: Valerie_Character1_Low:Spine2
+      position: {x: 0.0030727878, y: 0.004204772, z: 0.00001556119}
+      rotation: {x: 0.5593289, y: 0.43331847, z: -0.55649626, w: 0.43554357}
+      scale: {x: 1, y: 0.9999999, z: 0.99999976}
+    - name: Valerie_Character1_Low:RightArm
+      parentName: Valerie_Character1_Low:RightShoulder
+      position: {x: 1.2528983e-12, y: 0.0063169426, z: -6.444256e-11}
+      rotation: {x: -0.091375336, y: -0.0063227266, z: 0.018127024, w: 0.9956315}
+      scale: {x: 1.0000005, y: 1.0000007, z: 1.0000001}
+    - name: Valerie_Character1_Low:RightForeArm
+      parentName: Valerie_Character1_Low:RightArm
+      position: {x: 3.2535023e-11, y: 0.0068321056, z: -4.2701086e-11}
+      rotation: {x: -0.07086766, y: 0.0035658, z: -0.029952312, w: 0.99702954}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: Valerie_Character1_Low:RightHand
+      parentName: Valerie_Character1_Low:RightForeArm
+      position: {x: 8.6307085e-13, y: 0.0076248185, z: 6.3202507e-12}
+      rotation: {x: -0.05387427, y: -0.1267385, z: -0.04101597, w: 0.9896224}
+      scale: {x: 0.9999997, y: 1.0000002, z: 1.0000002}
+    - name: Valerie_Character1_Low:RightHandIndex1
+      parentName: Valerie_Character1_Low:RightHand
+      position: {x: -0.0012107514, y: 0.0032728368, z: 0.00013182384}
+      rotation: {x: 0.01868465, y: 0.0014940647, z: 0.07968552, w: 0.99664384}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000002}
+    - name: Valerie_Character1_Low:RightHandIndex2
+      parentName: Valerie_Character1_Low:RightHandIndex1
+      position: {x: -0.0000029415164, y: 0.001097405, z: 1.0918599e-11}
+      rotation: {x: 0.03844693, y: -0.00003715709, z: 0.0013243092, w: 0.9992598}
+      scale: {x: 1.0000005, y: 1.0000006, z: 1.0000005}
+    - name: Valerie_Character1_Low:RightHandIndex3
+      parentName: Valerie_Character1_Low:RightHandIndex2
+      position: {x: 0.0000015649573, y: 0.001017178, z: -6.1784267e-12}
+      rotation: {x: 0.0025134606, y: -0.00000023572679, z: 0.00000051992726, w: 0.9999969}
+      scale: {x: 1, y: 1.0000001, z: 1.0000002}
+    - name: Valerie_Character1_Low:RightHandIndex4
+      parentName: Valerie_Character1_Low:RightHandIndex3
+      position: {x: 0.0000013765692, y: 0.0009163767, z: -3.216094e-12}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Valerie_Character1_Low:RightHandMiddle1
+      parentName: Valerie_Character1_Low:RightHand
+      position: {x: -0.00048605487, y: 0.0033447072, z: -0.000111762136}
+      rotation: {x: -0.029152881, y: -0.0013932585, z: 0.047711246, w: 0.99843466}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000004}
+    - name: Valerie_Character1_Low:RightHandMiddle2
+      parentName: Valerie_Character1_Low:RightHandMiddle1
+      position: {x: -0.0000058367846, y: 0.0012983818, z: 1.1508936e-11}
+      rotation: {x: 0.03887198, y: -0.00013235316, z: 0.0012549869, w: 0.99924344}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000004}
+    - name: Valerie_Character1_Low:RightHandMiddle3
+      parentName: Valerie_Character1_Low:RightHandMiddle2
+      position: {x: -0.000000289635, y: 0.0012034993, z: 3.967848e-12}
+      rotation: {x: 0.037664495, y: 0.0002135507, z: 0.0019583742, w: 0.9992885}
+      scale: {x: 1.0000005, y: 1.0000006, z: 1.0000005}
+    - name: Valerie_Character1_Low:RightHandMiddle4
+      parentName: Valerie_Character1_Low:RightHandMiddle3
+      position: {x: 0.000006126422, y: 0.00111516, z: -1.6492878e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Valerie_Character1_Low:RightHandRing1
+      parentName: Valerie_Character1_Low:RightHand
+      position: {x: 0.00044494143, y: 0.0034274783, z: 0.000018165732}
+      rotation: {x: -0.08602109, y: -0.0037656943, z: 0.043571528, w: 0.99533296}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1.0000002}
+    - name: Valerie_Character1_Low:RightHandRing2
+      parentName: Valerie_Character1_Low:RightHandRing1
+      position: {x: -0.0000074239806, y: 0.0012480723, z: -3.0541836e-11}
+      rotation: {x: 0.036581192, y: -0.00028075228, z: 0.0024033352, w: 0.9993277}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000007}
+    - name: Valerie_Character1_Low:RightHandRing3
+      parentName: Valerie_Character1_Low:RightHandRing2
+      position: {x: 0.00000061232265, y: 0.0011101802, z: -3.1855406e-12}
+      rotation: {x: 0.03709368, y: 0.00033236964, z: 0.002152093, w: 0.9993094}
+      scale: {x: 0.99999994, y: 0.9999998, z: 0.99999946}
+    - name: Valerie_Character1_Low:RightHandRing4
+      parentName: Valerie_Character1_Low:RightHandRing3
+      position: {x: 0.0000068116437, y: 0.0010366519, z: -1.34167165e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Valerie_Character1_Low:RightHandPinky1
+      parentName: Valerie_Character1_Low:RightHand
+      position: {x: 0.0012518647, y: 0.0032016684, z: 0.000102478974}
+      rotation: {x: 0.008537694, y: 0.00004822015, z: 0.0056794113, w: 0.9999474}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1.0000006}
+    - name: Valerie_Character1_Low:RightHandPinky2
+      parentName: Valerie_Character1_Low:RightHandPinky1
+      position: {x: -0.0000030805995, y: 0.0010257254, z: -7.8942625e-12}
+      rotation: {x: 0.0401925, y: -0.000043038614, z: 0.0006077041, w: 0.9991918}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000004}
+    - name: Valerie_Character1_Low:RightHandPinky3
+      parentName: Valerie_Character1_Low:RightHandPinky2
+      position: {x: -0.00000005182762, y: 0.00084130367, z: 9.431566e-14}
+      rotation: {x: 0.038647007, y: 0.0001431467, z: 0.0014804021, w: 0.99925184}
+      scale: {x: 1.0000004, y: 0.99999994, z: 1.0000002}
+    - name: Valerie_Character1_Low:RightHandPinky4
+      parentName: Valerie_Character1_Low:RightHandPinky3
+      position: {x: 0.0000031324257, y: 0.00065432995, z: -2.310667e-12}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Valerie_Character1_Low:RightHandThumb1
+      parentName: Valerie_Character1_Low:RightHand
+      position: {x: -0.00107646, y: 0.0013331523, z: 0.00054071285}
+      rotation: {x: 0.118599184, y: 0.019191457, z: 0.31240234, w: 0.9423221}
+      scale: {x: 1.0000002, y: 1.0000006, z: 1.0000006}
+    - name: Valerie_Character1_Low:RightHandThumb2
+      parentName: Valerie_Character1_Low:RightHandThumb1
+      position: {x: -0.00019630337, y: 0.0014239629, z: 2.8969804e-12}
+      rotation: {x: -0.0035351578, y: 0.00016747782, z: 0.07564825, w: 0.99712837}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Valerie_Character1_Low:RightHandThumb3
+      parentName: Valerie_Character1_Low:RightHandThumb2
+      position: {x: 0.00011011018, y: 0.0012207609, z: 3.3556445e-12}
+      rotation: {x: -0.03969013, y: -0.004373873, z: -0.0013384502, w: 0.9992016}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000002}
+    - name: Valerie_Character1_Low:RightHandThumb4
+      parentName: Valerie_Character1_Low:RightHandThumb3
+      position: {x: 0.00008619318, y: 0.0010095102, z: 6.84623e-12}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Valerie_Character1_Low:LeftShoulder
+      parentName: Valerie_Character1_Low:Spine2
+      position: {x: -0.0030727878, y: 0.004205498, z: 0.000036918093}
+      rotation: {x: 0.56121004, y: -0.4318592, z: 0.55449593, w: 0.43712157}
+      scale: {x: 1, y: 0.99999976, z: 0.9999998}
+    - name: Valerie_Character1_Low:LeftArm
+      parentName: Valerie_Character1_Low:LeftShoulder
+      position: {x: -3.2586316e-12, y: 0.0063169426, z: -6.437232e-11}
+      rotation: {x: -0.09077103, y: 0.005473494, z: -0.012007145, w: 0.99578434}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000002}
+    - name: Valerie_Character1_Low:LeftForeArm
+      parentName: Valerie_Character1_Low:LeftArm
+      position: {x: 2.484384e-11, y: 0.006824201, z: 5.513814e-11}
+      rotation: {x: -0.07173097, y: -0.003238177, z: 0.027984845, w: 0.99702615}
+      scale: {x: 0.9999999, y: 0.99999976, z: 0.9999997}
+    - name: Valerie_Character1_Low:LeftHand
+      parentName: Valerie_Character1_Low:LeftForeArm
+      position: {x: 2.048915e-11, y: 0.0076237367, z: 4.9114935e-12}
+      rotation: {x: -0.05647949, y: 0.1278031, z: 0.037381526, w: 0.9894843}
+      scale: {x: 1.0000004, y: 1.0000006, z: 1.0000006}
+    - name: Valerie_Character1_Low:LeftHandRing1
+      parentName: Valerie_Character1_Low:LeftHand
+      position: {x: -0.00044307965, y: 0.0032701655, z: 0.000019110772}
+      rotation: {x: -0.07767309, y: 0.0035090148, z: -0.04499623, w: 0.99595684}
+      scale: {x: 0.9999996, y: 0.99999946, z: 0.9999996}
+    - name: Valerie_Character1_Low:LeftHandRing2
+      parentName: Valerie_Character1_Low:LeftHandRing1
+      position: {x: 0.0000048827287, y: 0.0012639865, z: -5.0599497e-11}
+      rotation: {x: 0.03810279, y: 0.0001547676, z: -0.0011261688, w: 0.9992732}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000004}
+    - name: Valerie_Character1_Low:LeftHandRing3
+      parentName: Valerie_Character1_Low:LeftHandRing2
+      position: {x: 0.00000050384807, y: 0.0011980338, z: -5.6210414e-12}
+      rotation: {x: 0.034545697, y: -0.00034766662, z: -0.0022555485, w: 0.99940056}
+      scale: {x: 1.0000001, y: 1, z: 1.0000002}
+    - name: Valerie_Character1_Low:LeftHandRing4
+      parentName: Valerie_Character1_Low:LeftHandRing3
+      position: {x: -0.0000053865742, y: 0.0010448868, z: -1.2200605e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Valerie_Character1_Low:LeftHandIndex1
+      parentName: Valerie_Character1_Low:LeftHand
+      position: {x: 0.0012119056, y: 0.0032165172, z: 0.000104525134}
+      rotation: {x: 0.035453808, y: -0.0028996763, z: -0.08146503, w: 0.9960412}
+      scale: {x: 0.99999964, y: 0.99999994, z: 0.99999964}
+    - name: Valerie_Character1_Low:LeftHandIndex2
+      parentName: Valerie_Character1_Low:LeftHandIndex1
+      position: {x: 0.0000012695514, y: 0.0011179668, z: 3.1256597e-12}
+      rotation: {x: 0.040414114, y: 0.000007823573, z: -0.00030163184, w: 0.99918294}
+      scale: {x: 1.0000001, y: 1, z: 1.0000004}
+    - name: Valerie_Character1_Low:LeftHandIndex3
+      parentName: Valerie_Character1_Low:LeftHandIndex2
+      position: {x: -0.00000051419954, y: 0.0010366626, z: -6.279235e-12}
+      rotation: {x: 0.038323868, y: -0.00000020845319, z: 0.000000054745822, w: 0.99926543}
+      scale: {x: 0.99999976, y: 0.99999994, z: 0.9999998}
+    - name: Valerie_Character1_Low:LeftHandIndex4
+      parentName: Valerie_Character1_Low:LeftHandIndex3
+      position: {x: -0.0000007553946, y: 0.0009255021, z: -1.576402e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Valerie_Character1_Low:LeftHandMiddle1
+      parentName: Valerie_Character1_Low:LeftHand
+      position: {x: 0.00049307937, y: 0.0033328969, z: -0.000090017194}
+      rotation: {x: -0.045807898, y: 0.0021773577, z: -0.04743524, w: 0.9978211}
+      scale: {x: 0.9999997, y: 0.99999994, z: 0.99999994}
+    - name: Valerie_Character1_Low:LeftHandMiddle2
+      parentName: Valerie_Character1_Low:LeftHandMiddle1
+      position: {x: 0.0000044977933, y: 0.0013218761, z: -4.14607e-12}
+      rotation: {x: 0.03795753, y: 0.00012746519, z: -0.0011401129, w: 0.9992787}
+      scale: {x: 1, y: 0.9999998, z: 0.9999998}
+    - name: Valerie_Character1_Low:LeftHandMiddle3
+      parentName: Valerie_Character1_Low:LeftHandMiddle2
+      position: {x: -0.00000003493239, y: 0.0011977372, z: -1.0592593e-12}
+      rotation: {x: 0.03781079, y: -0.00015608894, z: -0.0013222615, w: 0.999284}
+      scale: {x: 0.9999999, y: 1.0000002, z: 1.0000004}
+    - name: Valerie_Character1_Low:LeftHandMiddle4
+      parentName: Valerie_Character1_Low:LeftHandMiddle3
+      position: {x: -0.000004462881, y: 0.0011290124, z: 6.1155256e-12}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Valerie_Character1_Low:LeftHandThumb1
+      parentName: Valerie_Character1_Low:LeftHand
+      position: {x: 0.0010427851, y: 0.0013044211, z: 0.0005490985}
+      rotation: {x: 0.1241858, y: -0.014708402, z: -0.29517075, w: 0.94722533}
+      scale: {x: 0.9999996, y: 0.9999998, z: 0.9999999}
+    - name: Valerie_Character1_Low:LeftHandThumb2
+      parentName: Valerie_Character1_Low:LeftHandThumb1
+      position: {x: 0.00024534532, y: 0.0013848033, z: 1.07834e-11}
+      rotation: {x: -0.013852351, y: -0.0017723694, z: -0.056767482, w: 0.99828976}
+      scale: {x: 1, y: 1.0000005, z: 1.0000004}
+    - name: Valerie_Character1_Low:LeftHandThumb3
+      parentName: Valerie_Character1_Low:LeftHandThumb2
+      position: {x: -0.000013327994, y: 0.0012583771, z: 5.0686387e-12}
+      rotation: {x: 0.013347016, y: -0.0032721374, z: -0.07456863, w: 0.99712116}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000002}
+    - name: Valerie_Character1_Low:LeftHandThumb4
+      parentName: Valerie_Character1_Low:LeftHandThumb3
+      position: {x: -0.00023201744, y: 0.0009869545, z: -5.0862955e-12}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Valerie_Character1_Low:LeftHandPinky1
+      parentName: Valerie_Character1_Low:LeftHand
+      position: {x: -0.0012619053, y: 0.0032283594, z: 0.00007944401}
+      rotation: {x: 0.022441246, y: -0.0003848374, z: -0.017153198, w: 0.99960095}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Valerie_Character1_Low:LeftHandPinky2
+      parentName: Valerie_Character1_Low:LeftHandPinky1
+      position: {x: 0.0000010015262, y: 0.001009232, z: -8.251817e-12}
+      rotation: {x: 0.04071573, y: 0.000007858702, z: -0.00016107979, w: 0.9991708}
+      scale: {x: 0.99999976, y: 1.0000005, z: 1.0000006}
+    - name: Valerie_Character1_Low:LeftHandPinky3
+      parentName: Valerie_Character1_Low:LeftHandPinky2
+      position: {x: -0.00000006890474, y: 0.0008367766, z: -2.60556e-13}
+      rotation: {x: 0.03893062, y: -0.000041642954, z: -0.00039010958, w: 0.9992419}
+      scale: {x: 1.0000005, y: 1, z: 1}
+    - name: Valerie_Character1_Low:LeftHandPinky4
+      parentName: Valerie_Character1_Low:LeftHandPinky3
+      position: {x: -0.0000009326175, y: 0.000657958, z: -1.05293725e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Valerie_Character1_Low:LeftUpLeg
+      parentName: Valerie_Character1_Low:Hips
+      position: {x: -0.0033743065, y: -0.0018475056, z: -0.00028179548}
+      rotation: {x: -0.00028720402, y: 0.013127154, z: 0.9996746, w: 0.021871524}
+      scale: {x: 1.0000002, y: 1, z: 1}
+    - name: Valerie_Character1_Low:LeftLeg
+      parentName: Valerie_Character1_Low:LeftUpLeg
+      position: {x: 2.5653852e-11, y: 0.017894687, z: 1.9694413e-11}
+      rotation: {x: -0.018670408, y: 0.000018393619, z: -0.0009859131, w: 0.9998252}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000001}
+    - name: Valerie_Character1_Low:LeftFoot
+      parentName: Valerie_Character1_Low:LeftLeg
+      position: {x: -4.826513e-11, y: 0.017350776, z: 1.7169468e-12}
+      rotation: {x: 0.40163314, y: 0.04137705, z: -0.018168436, w: 0.914685}
+      scale: {x: 0.9999996, y: 0.99999946, z: 1}
+    - name: Valerie_Character1_Low:LeftToeBase
+      parentName: Valerie_Character1_Low:LeftFoot
+      position: {x: -1.0667866e-12, y: 0.006347561, z: -7.5034465e-11}
+      rotation: {x: 0.35244817, y: -0.024197621, z: 0.009116693, w: 0.93547404}
+      scale: {x: 1.0000005, y: 1.0000006, z: 1}
+    - name: Valerie_Character1_Low:LeftToe_End
+      parentName: Valerie_Character1_Low:LeftToeBase
+      position: {x: -1.9534274e-12, y: 0.0024372162, z: -2.6295604e-12}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Valerie_Character1_Low:RightUpLeg
+      parentName: Valerie_Character1_Low:Hips
+      position: {x: 0.0033743065, y: -0.0018475056, z: -0.00023390926}
+      rotation: {x: 0.00023813087, y: 0.010882723, z: 0.9997015, w: -0.0218745}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
+    - name: Valerie_Character1_Low:RightLeg
+      parentName: Valerie_Character1_Low:RightUpLeg
+      position: {x: -2.9077862e-11, y: 0.017892761, z: 1.199079e-12}
+      rotation: {x: -0.017451711, y: -0.00001713456, z: 0.0009809944, w: 0.99984723}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Valerie_Character1_Low:RightFoot
+      parentName: Valerie_Character1_Low:RightLeg
+      position: {x: 5.422601e-11, y: 0.017351208, z: 2.117896e-11}
+      rotation: {x: 0.39900285, y: -0.042093724, z: 0.018339718, w: 0.91579944}
+      scale: {x: 0.9999999, y: 0.99999976, z: 0.9999999}
+    - name: Valerie_Character1_Low:RightToeBase
+      parentName: Valerie_Character1_Low:RightFoot
+      position: {x: 1.1701644e-11, y: 0.0062957713, z: 1.3251741e-10}
+      rotation: {x: 0.35568938, y: 0.023887457, z: -0.009094375, w: 0.9342547}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1}
+    - name: Valerie_Character1_Low:RightToe_End
+      parentName: Valerie_Character1_Low:RightToeBase
+      position: {x: 7.221491e-12, y: 0.0023802603, z: 2.7488214e-12}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
