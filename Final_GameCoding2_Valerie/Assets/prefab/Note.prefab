@@ -29,7 +29,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8077693637426973294}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -167.8, y: -3.429615, z: -54.8229}
   m_LocalScale: {x: 17.550673, y: 6.5873003, z: 7.051115}
   m_ConstrainProportionsScale: 0
@@ -148,3 +148,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   noteInBounds: 0
   noteClicked: 0
+  combo: {fileID: 6045990673789812284, guid: d925b0ba6d6eec74d8d81fcb1d318667, type: 3}

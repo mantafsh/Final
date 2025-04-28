@@ -148,3 +148,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   noteInBounds: 0
   noteClicked: 0
+  combo: {fileID: 6045990673789812284, guid: d925b0ba6d6eec74d8d81fcb1d318667, type: 3}

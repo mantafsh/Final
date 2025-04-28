@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class DestroyNote : MonoBehaviour
@@ -7,10 +8,12 @@ public class DestroyNote : MonoBehaviour
     GameObject note;
     public bool noteInBounds;
     public bool noteClicked;
+    
     // Start is called before the first frame update
     void Start()
     {
         note = GetComponent<GameObject>();
+        
     }
 
     // Update is called once per frame
@@ -28,6 +31,7 @@ public class DestroyNote : MonoBehaviour
             //if note was tapped, destroy it
             noteClicked = false;
             Destroy(gameObject);
+            ComboCounter.ComboUpdate();
             //register to combo
             Debug.Log("Released");
         }
@@ -46,6 +50,7 @@ public class DestroyNote : MonoBehaviour
         if (other.CompareTag("Out")) 
         { 
             Destroy(gameObject);
+            ComboCounter.ResetCombo();
             //reset combo
         }
     }
@@ -58,5 +63,7 @@ public class DestroyNote : MonoBehaviour
         }
 
     }
+
+    
 }
 
