@@ -20,7 +20,7 @@ public class Conductor : MonoBehaviour
     
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         //assign the music source in the empty game object
         musicSource = GetComponent<AudioSource>();

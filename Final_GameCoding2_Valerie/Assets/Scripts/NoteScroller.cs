@@ -11,10 +11,11 @@ public class NoteScroller : MonoBehaviour
     void Start()
     {
         noteSpeed = Conductor.bpm * Conductor.secPerBeat;
+        Application.targetFrameRate = 60;
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         transform.position -= new Vector3(noteSpeed * Time.deltaTime, 0, 0);
         
