@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 
 public class Conductor : MonoBehaviour
@@ -17,6 +18,8 @@ public class Conductor : MonoBehaviour
     public float dspSongTime;
     //the audio source -- what actually emits the song
     public AudioSource musicSource;
+    //fadeout bool
+    private bool musicFadeOutEnable = false;
     
 
     // Start is called before the first frame update
@@ -30,6 +33,7 @@ public class Conductor : MonoBehaviour
         dspSongTime = (float)AudioSettings.dspTime;
         //Start the music
         musicSource.Play();
+        musicSource.volume = 1f;
 
     }
 
@@ -49,5 +53,9 @@ public class Conductor : MonoBehaviour
         //   notePrefab = Instantiate(notePrefab, notePos, Quaternion.identity);
         //    Debug.Log("note appeared");
         //}
+        if(songPosSec == 71.95728f) 
+        {
+            SceneManager.LoadScene(2);
+        }
     }
 }

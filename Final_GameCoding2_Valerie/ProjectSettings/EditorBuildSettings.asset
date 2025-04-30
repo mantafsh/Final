@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Lets Go Fishing.unity
     guid: 76ff672f9f7a26242b71626d2dc63aa4
+  - enabled: 1
+    path: Assets/Scenes/Endgame.unity
+    guid: 5361c32a2242ca744aeb40f55d3eb8ff
   m_configObjects: {}
