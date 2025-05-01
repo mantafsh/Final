@@ -49,6 +49,7 @@ public class DestroyNote : MonoBehaviour
 
         if (other.CompareTag("Out")) 
         { 
+
             Destroy(gameObject);
             ComboCounter.ResetCombo();
             //reset combo
