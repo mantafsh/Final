@@ -15,5 +15,5 @@ MonoBehaviour:
   speakerName: me
   dialogueLinesList:
   - yay! first dialogue line
-  nextLine: {fileID: 0}
+  nextLine: {fileID: 11400000, guid: 7edd488c2576aa04eac18bd4d5f3f120, type: 2}
   choices: []

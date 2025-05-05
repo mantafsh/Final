@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using Unity.VisualScripting;
 
 
 public class DialogueManager : MonoBehaviour
@@ -20,16 +21,23 @@ public class DialogueManager : MonoBehaviour
 
     public void StartingDialogue()
     {
+        dialogueParent.gameObject.SetActive(false);
         UpdateDialogue(currentLine);
     }
     public void UpdateDialogue(DialogueLine dialogueline)
     {
-
+        dialogueParent.gameObject.SetActive(true);
         currentLine = dialogueline;
         StartCoroutine(DisplayDialogue(currentLine));
         //optional
         continueButton.enabled = true;
 
+    }
+    //another attempt
+    public void EndDialogue() 
+    { 
+        dialogueParent.gameObject.SetActive(false);
+        continueButton.enabled = true;
     }
     IEnumerator DisplayDialogue(DialogueLine line)
     {
@@ -124,9 +132,17 @@ public class DialogueManager : MonoBehaviour
                 }
             }
         }
-        else if (line.nextLine != null)
+        //if there are more lines, just continue through them as normal
+        else if (line.nextLine != null) 
         {
-            //if there are no choices but there is a next line show a continue button
+            UpdateDialogue(line.nextLine);
+        }
+        //gonna make some changes
+        //continue button will appear if there are NO more lines; instead closes the textbox
+        else if (line.nextLine = null)
+        {
+            Debug.Log("No more lines");
+            //if there are no choices and no next lines show a continue button
             continueButton.gameObject.SetActive(true);
             //clear out everything that is set to happen
             //bc we are using the same button for different lines &  we don't want them to stack
@@ -134,12 +150,14 @@ public class DialogueManager : MonoBehaviour
             //when button is clicked run this code
             continueButton.onClick.AddListener(() =>
             {
-                //continue to next line
-                UpdateDialogue(line.nextLine);
+                //end dialogue
+                EndDialogue();
+                //dialogueParent.gameObject.SetActive(false);
                 continueButton.gameObject.SetActive(false);
 
             });
         }
+        //if there are more lines, just continue through them as normal
 
     }
 }
