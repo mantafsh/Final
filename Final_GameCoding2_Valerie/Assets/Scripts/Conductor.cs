@@ -11,7 +11,7 @@ public class Conductor : MonoBehaviour
     //beats per second, to know how long each beat (basic note) last
     public static float secPerBeat;
     //current SONG POSITION in seconds
-    public float songPosSec;
+    public int songPosSec;
     //song position in beats
     public float songPosBeat;
     //how much of the song has passed, in seconds
@@ -30,7 +30,7 @@ public class Conductor : MonoBehaviour
         //calculate the number of seconds in each beat
         secPerBeat = 60f / bpm;
         //record the time when the song starts
-        dspSongTime = (float)AudioSettings.dspTime;
+        dspSongTime = (int)AudioSettings.dspTime;
         //Start the music
         musicSource.Play();
         musicSource.volume = 1f;
@@ -41,7 +41,7 @@ public class Conductor : MonoBehaviour
     void Update()
     {
         //how many seconds since the song started
-        songPosSec = (float)(AudioSettings.dspTime -  dspSongTime); 
+        songPosSec = (int)(AudioSettings.dspTime -  dspSongTime); 
         //how many beats since the song started
         songPosBeat = songPosSec / secPerBeat;
         //note that the beats normally go 1-2-3-4; but here it is 0-1-2-3 -- the third beat will be equal to 2.0, not 3.0
@@ -53,7 +53,7 @@ public class Conductor : MonoBehaviour
         //   notePrefab = Instantiate(notePrefab, notePos, Quaternion.identity);
         //    Debug.Log("note appeared");
         //}
-        if(songPosSec == 71.95728f) 
+        if(songPosSec == 71) 
         {
             SceneManager.LoadScene(2);
         }
