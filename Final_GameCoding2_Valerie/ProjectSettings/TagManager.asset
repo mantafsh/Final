@@ -7,6 +7,9 @@ TagManager:
   - TriggerLine
   - Note
   - Out
+  - Idle
+  - Success
+  - Failure
   layers:
   - Default
   - TransparentFX

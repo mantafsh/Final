@@ -8,12 +8,22 @@ public class DestroyNote : MonoBehaviour
     GameObject note;
     public bool noteInBounds;
     public bool noteClicked;
+    //sprites
+    SpriteRenderer idle;
+    SpriteRenderer failure;
+    SpriteRenderer success;
+    
     
     // Start is called before the first frame update
     void Start()
     {
         note = GetComponent<GameObject>();
-        
+        idle = GameObject.FindGameObjectWithTag("Idle").GetComponent<SpriteRenderer>();
+        failure = GameObject.FindGameObjectWithTag("Failure").GetComponent<SpriteRenderer>();
+        success = GameObject.FindGameObjectWithTag("Success").GetComponent<SpriteRenderer>();
+        idle.enabled = true;
+        failure.enabled = false;
+        success.enabled = false;
     }
 
     // Update is called once per frame
@@ -30,8 +40,18 @@ public class DestroyNote : MonoBehaviour
         {
             //if note was tapped, destroy it
             noteClicked = false;
-            Destroy(gameObject);
+            failure.enabled = false;
+            idle.enabled = false;
+            success.enabled = true;
+            StartCoroutine(Wait());
             ComboCounter.ComboUpdate();
+            //switch sprites
+            
+           // success.enabled = false;
+           // idle.enabled = true;
+            Debug.Log("Changed");
+
+
             //register to combo
             Debug.Log("Released");
         }
@@ -50,8 +70,14 @@ public class DestroyNote : MonoBehaviour
         if (other.CompareTag("Out")) 
         { 
 
-            Destroy(gameObject);
+            success.enabled = false;
+            idle.enabled = false;
+            failure.enabled = true;
+            StartCoroutine(Wait());
             ComboCounter.ResetCombo();
+            //switch sprites
+            
+            Debug.Log("Changed");
             //reset combo
         }
     }
@@ -62,6 +88,16 @@ public class DestroyNote : MonoBehaviour
         {
             noteInBounds = false;
         }
+
+    }
+    IEnumerator Wait() 
+    {
+        yield return new WaitForSeconds(.1f);
+        failure.enabled = false;
+        idle.enabled = idle;
+        success.enabled = false;
+        Destroy(gameObject);
+
 
     }
 

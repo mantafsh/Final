@@ -18,12 +18,12 @@ public class ComboCounter : MonoBehaviour
     {
         
         currentCombo++;
-        combo.text = "Combo: " + currentCombo.ToString();
+        combo.text = currentCombo.ToString();
 
     }
     public static void ResetCombo()
     {
         currentCombo = startingCombo;
-        combo.text = "Combo: " + currentCombo.ToString();
+        combo.text = currentCombo.ToString();
     }
 }

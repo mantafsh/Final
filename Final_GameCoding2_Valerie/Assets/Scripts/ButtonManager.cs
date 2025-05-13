@@ -14,8 +14,8 @@ public class ButtonManager : MonoBehaviour
         SceneManager.LoadScene(0);
     }
     public void FishEasy() 
-    { 
-        //load the easy level
+    {
+        SceneManager.LoadScene(3);
     }
     public void FishHard() 
     {

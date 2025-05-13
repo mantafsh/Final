@@ -17,11 +17,11 @@ public class HookMove : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.DownArrow)) 
         {
-            transform.position = new Vector3(-44.4f, -45.1f, 90.2f);
+            transform.position = new Vector3(-29.5f, -45.1f, 90.2f);
         }
         if (Input.GetKeyDown(KeyCode.UpArrow))
         {
-            transform.position = new Vector3(-44.4f, -25f, 90.2f);
+            transform.position = new Vector3(-29.5f, -25f, 90.2f);
         }
     }
 }

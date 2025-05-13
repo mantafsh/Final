@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    
     //character controller component
     private CharacterController controller;
     //movement input
@@ -20,10 +21,20 @@ public class PlayerMovement : MonoBehaviour
     //make the character rotate to the cursor? maybe?
     //not much here to do 
 
+    //animations
+    Animator animator;
+
+
     // Start is called before the first frame update
     void Start()
     {
         controller = GetComponent<CharacterController>();
+        animator = GetComponentInChildren<Animator>();
+        //stuff to switch between animations
+        animator.SetBool("isWalking", false);
+    }
+    private void FixedUpdate()
+    {
     }
 
     // Update is called once per frame
@@ -36,8 +47,21 @@ public class PlayerMovement : MonoBehaviour
         velocity = transform.forward * zInput * walkSpeed +
         transform.right * horizontalInput * walkSpeed + Vector3.up *
         velocity.y;
+        //to rotate to the front:
+        Vector3 movementDirection = new Vector3(horizontalInput, 0, zInput);
+        movementDirection.Normalize();
         //calling 
         MovePlayer();
+        if (horizontalInput != 0 || zInput !=0 )
+        {
+            animator.SetBool("isWalking", true);
+            transform.forward = movementDirection;
+        }
+        else 
+        {
+            animator.SetBool("isWalking", false);
+        }
+        
     }
 
     private void MovePlayer() 

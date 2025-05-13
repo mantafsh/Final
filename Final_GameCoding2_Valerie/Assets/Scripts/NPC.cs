@@ -33,7 +33,7 @@ public class NPC : MonoBehaviour
             ConvoEnd();
             convoActive=false;
         }
-        ConversationManager.OnConversationEnded += ConvoDisabled;
+        //ConversationManager.OnConversationEnded += ConvoDisabled;
     }
    
     private void ConvoStart() 
@@ -44,10 +44,10 @@ public class NPC : MonoBehaviour
     {
         ConversationManager.Instance.EndConversation();
     }
-    private void ConvoDisabled() 
-    { 
-        Destroy(gameObject.GetComponent<SphereCollider>());
-    }
+    //private void ConvoDisabled() 
+    //{ 
+    //    Destroy(gameObject.GetComponent<SphereCollider>());
+    //}
     private void OnTriggerEnter(Collider other)
     {
         if(other.gameObject.CompareTag("Player")) 

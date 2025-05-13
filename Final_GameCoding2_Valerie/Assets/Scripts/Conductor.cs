@@ -55,7 +55,20 @@ public class Conductor : MonoBehaviour
         //}
         if(songPosSec == 71) 
         {
-            SceneManager.LoadScene(2);
+            SceneManager.LoadScene(4);
+        }
+        if(songPosSec == 63) 
+        { 
+            musicFadeOutEnable=true;
+        }
+        if(musicFadeOutEnable) 
+        {
+            float newVolume = musicSource.volume - (0.07f * Time.deltaTime);  //change 0.01f to something else to adjust the rate of the volume dropping
+            if (newVolume < 0f)
+            {
+                newVolume = 0f;
+            }
+            musicSource.volume = newVolume;
         }
     }
 }

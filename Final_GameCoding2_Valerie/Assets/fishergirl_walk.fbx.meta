@@ -3,7 +3,32 @@ guid: 7c3b86c624100fb4ab114d6e00839af7
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: body1
+    second: {fileID: 2100000, guid: acc49f5643187da4698d763a7b3a651b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: eyes1
+    second: {fileID: 2100000, guid: 3492d4e7ab3980546a9e30c66cc24725, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hair1
+    second: {fileID: 2100000, guid: ab66ef7dfd3e91d459bc65f989624c98, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: hooks1
+    second: {fileID: 2100000, guid: e97092d52bc046148891f8bfd56a8fcf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sweater1
+    second: {fileID: 2100000, guid: d4c9831add3feb44989b9285970dacbf, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
