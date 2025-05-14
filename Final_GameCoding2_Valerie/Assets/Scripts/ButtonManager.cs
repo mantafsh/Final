@@ -11,6 +11,7 @@ public class ButtonManager : MonoBehaviour
    }
     public void StartScreen() 
     { 
+        ComboCounter.ResetCombo();
         SceneManager.LoadScene(0);
     }
     public void FishEasy() 

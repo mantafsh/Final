@@ -7685,6 +7685,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991f58415ea4fea418bd36f37a112c84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cam: {fileID: 963194227}
   walkSpeed: 6
   isGrounded: 0
 --- !u!82 &2104909486
@@ -8084,6 +8085,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 991f58415ea4fea418bd36f37a112c84, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cam: {fileID: 0}
   walkSpeed: 5
   isGrounded: 0
 --- !u!1660057539 &9223372036854775807
