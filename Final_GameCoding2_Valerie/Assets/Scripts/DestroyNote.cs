@@ -9,21 +9,21 @@ public class DestroyNote : MonoBehaviour
     public bool noteInBounds;
     public bool noteClicked;
     //sprites
-    SpriteRenderer idle;
-    SpriteRenderer failure;
-    SpriteRenderer success;
+    //SpriteRenderer idle;
+    //SpriteRenderer failure;
+    //SpriteRenderer success;
     
     
     // Start is called before the first frame update
     void Start()
     {
         note = GetComponent<GameObject>();
-        idle = GameObject.FindGameObjectWithTag("Idle").GetComponent<SpriteRenderer>();
-        failure = GameObject.FindGameObjectWithTag("Failure").GetComponent<SpriteRenderer>();
-        success = GameObject.FindGameObjectWithTag("Success").GetComponent<SpriteRenderer>();
-        idle.enabled = true;
-        failure.enabled = false;
-        success.enabled = false;
+        //idle = GameObject.FindGameObjectWithTag("Idle").GetComponent<SpriteRenderer>();
+        //failure = GameObject.FindGameObjectWithTag("Failure").GetComponent<SpriteRenderer>();
+        //success = GameObject.FindGameObjectWithTag("Success").GetComponent<SpriteRenderer>();
+        //idle.enabled = true;
+        //failure.enabled = false;
+        //success.enabled = false;
     }
 
     // Update is called once per frame
@@ -40,15 +40,16 @@ public class DestroyNote : MonoBehaviour
         {
             //if note was tapped, destroy it
             noteClicked = false;
-            failure.enabled = false;
-            idle.enabled = false;
-            success.enabled = true;
-            StartCoroutine(Wait());
+            //failure.enabled = false;
+            //idle.enabled = false;
+            //success.enabled = true;
+            //StartCoroutine(Wait());
             ComboCounter.ComboUpdate();
+            Destroy(gameObject);
             //switch sprites
-            
-           // success.enabled = false;
-           // idle.enabled = true;
+
+            // success.enabled = false;
+            // idle.enabled = true;
             Debug.Log("Changed");
 
 
@@ -70,13 +71,14 @@ public class DestroyNote : MonoBehaviour
         if (other.CompareTag("Out")) 
         { 
 
-            success.enabled = false;
-            idle.enabled = false;
-            failure.enabled = true;
-            StartCoroutine(Wait());
+            //success.enabled = false;
+            //idle.enabled = false;
+            //failure.enabled = true;
+            //StartCoroutine(Wait());
             ComboCounter.ResetCombo();
+            Destroy(gameObject);
             //switch sprites
-            
+
             Debug.Log("Changed");
             //reset combo
         }
@@ -90,16 +92,16 @@ public class DestroyNote : MonoBehaviour
         }
 
     }
-    IEnumerator Wait() 
-    {
-        yield return new WaitForSeconds(.1f);
-        failure.enabled = false;
-        idle.enabled = idle;
-        success.enabled = false;
-        Destroy(gameObject);
+    //IEnumerator Wait() 
+    //{
+    //    yield return new WaitForSeconds(.1f);
+    //    failure.enabled = false;
+    //    idle.enabled = idle;
+    //    success.enabled = false;
+    //    Destroy(gameObject);
 
 
-    }
+    //}
 
     
 }

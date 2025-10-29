@@ -1,6 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Runtime.CompilerServices;
+//using System.Runtime.CompilerServices;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -38,18 +38,19 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         float horizontalInput = Input.GetAxis("Horizontal");
-        //zInput gets player's w or s input which is -1 or 1
+        ////zInput gets player's w or s input which is -1 or 1
         float zInput = Input.GetAxis("Vertical");
-        //for character controller just call velocity
-        velocity = transform.forward * zInput * walkSpeed +
-        transform.right * horizontalInput * walkSpeed + Vector3.up *
-        velocity.y;
+        ////for character controller just call velocity
+        //velocity = transform.forward * zInput * walkSpeed +
+        //transform.right * horizontalInput * walkSpeed + Vector3.up *
+        //velocity.y;
         //to rotate to the front:
         //Vector3 movementDirection = new Vector3(horizontalInput, 0, zInput);
-       // movementDirection.Normalize();
+        // movementDirection.Normalize();
         //this was too janky
         //calling 
-        MovePlayer();
+        movementInput = new Vector3(horizontalInput, 0, zInput);
+
         if (horizontalInput != 0 || zInput !=0 )
         {
             animator.SetBool("isWalking", true);
@@ -59,14 +60,8 @@ public class PlayerMovement : MonoBehaviour
         {
             animator.SetBool("isWalking", false);
         }
-        // Converting the mouse position to a point in 3D-space
-        //Vector3 point = cam.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 1));
-        //// Using some math to calculate the point of intersection between the line going through the camera and the mouse position with the XZ-Plane
-        //float t = cam.transform.position.y / (cam.transform.position.y - point.y);
-       // Vector3 finalPoint = new Vector3(t * (point.x - cam.transform.position.x) + cam.transform.position.x, 1, t * (point.z - cam.transform.position.z) + cam.transform.position.z);
-        ////Rotating the object to that point
-        //transform.LookAt(finalPoint, Vector3.up);
-        //pheaps mouse code
+        MovePlayer();
+        RotateTowardsMouse();
     }
 
     private void MovePlayer() 
@@ -89,5 +84,22 @@ public class PlayerMovement : MonoBehaviour
         Time.deltaTime);
         //apply vertical movement (gravity and jumping)
         controller.Move(velocity * Time.deltaTime);
+    }
+    void RotateTowardsMouse()
+    {
+        Ray ray = cam.ScreenPointToRay(Input.mousePosition);
+        Plane groundPlane = new Plane(Vector3.up, Vector3.zero);
+
+        if (groundPlane.Raycast(ray, out float enter))
+        {
+            Vector3 hitPoint = ray.GetPoint(enter);
+            Vector3 lookDir = hitPoint - transform.position;
+            lookDir.y = 0;
+
+            if (lookDir.magnitude > 0.1f)
+            {
+                transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(lookDir), 10f * Time.deltaTime);
+            }
+        }
     }
 }
